@@ -1,0 +1,190 @@
+/* Empty file for template. Remember to edit only this file and not the HTML file */
+*{
+    box-sizing: border-box;
+    border-radius: 20%;
+    }
+    :not(p){
+    padding: 5px
+    }
+    .intro{
+       background-color: white
+    }
+    h1{
+        font-size: 200%;
+    }
+    h1,h2,h3{
+    display:flex;
+    justify-content:center;
+    }
+    h3~ul{
+      background: black; 
+      
+    }
+    h3+p{
+        margin:1rem;
+    }
+    footer{
+    display:flex;
+    justify-content: space-around;
+    font-size: 50px;
+    background-color: rgb(241, 235, 235)
+    }
+    div.design-selection{
+      background: rgba(255, 0, 0, 0.066);
+    }
+    
+    div h3{
+       color:rgb(146, 121, 54)
+    }
+    footer>a{
+    font-family:serif;
+    }
+    .main-supporting{
+    font-size: 15px;
+    }
+    .sidebar .design-selection{
+      width: 100%
+    }
+    p[class^="requirements"]{
+      margin:.1rem;
+     }
+    [title~="Cascading"]{
+      background:rgba(178, 166, 166, 0.137);
+      }
+      p[class|="zen"]{
+      padding:.5rem;
+      }
+    a[class$="license"]{
+    background: rgba(15, 110, 43, 0.235);
+    }
+    a[class*="zen-validate"]{
+    background: rgba(25, 188, 185, 0.096);
+    }
+    [title]{
+      color:rgb(154, 154, 154);
+    }
+    a[title="This page's source HTML code, not to be modified."]{
+      background-color: yellow;
+    }
+    a[title="This page's sample CSS, the file you may modify."]{
+      background-color: yellow;
+    }
+    ul, li{
+      display:flex;
+      flex-direction: column;  
+      align-self: center;
+    }
+    .preamble{
+    background: white
+    }
+    
+    .explanation{
+    background: white;
+    }
+    .participation{
+    background: white;
+    }
+    .benefits{
+    background: white;
+    }
+    .requirements{
+    background: white;
+    
+    }
+    .sidebar{
+    background: white;
+    border-radius: 0%;
+    }
+    p{
+        margin-left: 55px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    footer a:link{
+        color:rgb(71, 139, 241)
+    }
+    a:link{
+     color:salmon
+    }
+    a:visited{
+        color:rgb(171, 154, 133)
+    }
+    a:hover{
+        color:rgb(7, 181, 123)
+    }
+    a:active{
+        color:midnightblue
+    }
+    h2::after, h2::before{
+      display: inline-block;
+      height:2em;
+      width:2em;
+      content:url("pictures/4147a09309be1e587f2034b14a4d13ff.jpg")
+    }
+    div:empty{
+    padding-top: .1rem;
+    
+    }
+    p:nth-child(2){
+    font-weight: 900;
+    }
+    a:nth-last-child(1){
+    background: rgba(200, 252, 10, 0.062);
+    }
+    a:nth-last-of-type(2){
+    background: rgba(0, 30, 255, 0.128);
+    }
+    ul:nth-of-type(1){
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    :root{
+        border: solid;
+        border-width: .5rem;
+        border-radius: 0%;
+    }
+    a:only-child{
+      border:solid;
+      border-color:lightslategray;
+    }
+    h2:only-of-type{
+    color: rgb(155, 155, 155);
+    }
+    .intro:first-child{
+    background: rgba(94, 3, 30, 0.95);
+    }
+    p::first-letter{
+        font-size: 2rem;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    a::first-line{
+    background: rgba(255, 0, 0, 0.068);
+    }
+    p:first-of-type{
+    background: rgba(92, 136, 117, 0.174);
+    }
+    a:focus{
+    background-color: rgba(61, 7, 169, 0.806);
+    }
+    p:last-child{
+    background: rgba(255, 0, 0, 0.148);
+    }
+    p:last-of-type{
+    margin-top: 1rem;
+    }
+    ::selection{
+        color:rgba(39, 111, 111, 0.603);
+        background: rgba(4, 255, 0, 0.153)
+          
+    }
+    #css-zen-garden{  
+     max-width: 1000px;
+     background-image: url("pictures/0030845_greys_600.jpg"); 
+     margin: 0 auto;
+     
+    }
+    #page-wrapper{
+        display:flex;
+        flex-flow: row wrap;
+    
+    }
+        
+    
